@@ -1,0 +1,89 @@
+@charset "utf-8";
+
+body {
+  margin: 0 auto;
+  background-color: white;
+}
+
+/* img {
+  /* position: fixed; */
+  /* background: center/cover; */
+
+
+#pege-title {
+  width: 300px;
+  height: 40px;
+  font-size: 25px;
+  font-weight: bold;
+  font-family: monospace, 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  text-align: center;
+  margin: 0 auto;
+  background-color: green;
+  border-radius: 10px;
+  padding-top: 10px;
+  text-shadow: 10px 5px 3px rgba(0, 0, 0, 0.3);
+}
+
+
+
+nav ul {
+  justify-content: flex-end;
+  display: flex;
+  align-items: right;
+  list-style: none;
+}
+nav  a {
+  padding: 0 20px;
+  display: inline-block;
+  line-height: 60px;
+  color: black;
+}
+
+nav a:hover{
+  background: #eee;
+}
+
+h2::before {
+  content: "- ";
+}
+h2::after {
+  content: " -";
+}
+
+p {
+  line-height: 1.8;
+}
+
+.btn {
+  width: 100px;
+  background: gray;
+  text-align: center;
+  padding: 4px;
+  color: khaki;
+  cursor: pointer;
+  font-weight: bold;
+  border-radius: 8px;
+}
+
+.btn:hover {
+  opacity: 0.8;
+}
+
+footer {
+  text-align: center;
+  font-size: 14px;
+  color: gray; 
+  background-color: black;
+  height: 50px;
+  padding: 30px;
+  margin-top: 30px;
+}
+
+a[href]:hover {
+  background-color: rgb(185, 184, 184);
+}
+
+a[href] {
+  color: initial;
+}
+
